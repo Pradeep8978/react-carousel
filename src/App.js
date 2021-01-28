@@ -261,13 +261,7 @@ const carouselData = [
     count: 2,
     image:
     "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/32104.jpg",
-    },
-  {
-    name: "Flanges",
-    count: 4,
-    image:
-    "https://s3.amazonaws.com/s3.supplyhouse.com/images/categories/category/31814.jpg",
-    },
+    }
 ];
 
 const responsive = {

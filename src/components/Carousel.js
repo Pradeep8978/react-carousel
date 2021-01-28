@@ -38,7 +38,7 @@ class Carousel extends React.Component {
     }
     if (!touchstartX || !touchendX) return;
     if (touchendX < touchstartX) {
-      if (this.state.slideNumber < totalSlides) this.onPressRight();
+      if (this.state.slideNumber < totalSlides-1) this.onPressRight();
     }
     if (touchendX > touchstartX) {
       if (this.state.slideNumber > 0) this.onPressLeft();
